@@ -54,7 +54,7 @@ function formatParams($uri, $params)
 
 function router()
 {
-    $url = str_replace('/Combustivel.online/public', '',$_SERVER['REQUEST_URI']);
+    $url = str_replace('/public_html', '',$_SERVER['REQUEST_URI']);
     $uri = parse_url($url, PHP_URL_PATH);
     $routes = routes();
 

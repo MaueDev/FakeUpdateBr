@@ -4,8 +4,7 @@ require 'bootstrap.php';
 
 
 try{
-    echo "teste";
-    die();
+    
     $data = router();
 
    extract($data['data']);

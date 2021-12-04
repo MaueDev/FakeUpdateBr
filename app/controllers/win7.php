@@ -1,9 +1,9 @@
 <?php 
 namespace app\controllers;
 
-class home
+class win7
 {
-    public function index($params)
+    public function ptbr($params)
     {
         return [
             "view" => 'home.views.php',

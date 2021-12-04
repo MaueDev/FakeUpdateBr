@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #88E0EF;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header
+{
+    height:70px;
+    width: 100%;
+    background-color: #161E54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    box-shadow: 0px -4px 16px 5px #000000;
+}
+
+main{
+    margin-top: 15px;
+    width: 100%;
+    
+}
+main .container, main .Opcao
+{
+    height: 150px;
+    margin: 0 5px 0 5px;
+    background-color: #161E54;
+}
+.bordeRadius
+{
+    padding: 10px;
+    color: white;
+}
+.bordeRadius:first-child
+{
+    border-radius: 8px 8px 0 0;
+}
+.bordeRadius:last-child
+{
+    border-radius: 0 0 8px 8px ;
+    
+}
+
+.select
+{
+    display: flex;
+    flex-direction: column;
+}
+.select label
+{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.select select
+{
+    margin-top: 5px;
+    height: 30px;
+}
+
+.Opcao .window7
+{
+    width: 120px;
+    height: 120px;
+    
+}
+.window7 img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px -1px #000000;
+}
+.window7 img:hover
+{
+   
+    box-shadow: 0px 0px 8px -1px #161E54;
+}

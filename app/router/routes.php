@@ -2,8 +2,6 @@
 <?php
 $routesarray = [
     '/' => 'home@index',
-    '/user/create' => 'user@create',
-    '/user/[0-9]+' => "user@show"/*,
-    '/user/[0-9]+/name/[a-z]+' => "User@show",*/
+    '/win7/ptbr' => 'win7@ptbr',
     
 ];

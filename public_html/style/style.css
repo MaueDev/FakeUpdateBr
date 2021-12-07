@@ -46,7 +46,7 @@ main .container, main .Opcao
 {
     border-radius: 8px 8px 0 0;
 }
-.bordeRadius:last-child
+.bordeRadius:nth-child(2)
 {
     border-radius: 0 0 8px 8px ;
     
@@ -86,4 +86,12 @@ main .container, main .Opcao
 {
    
     box-shadow: 0px 0px 8px -1px #161E54;
+}
+
+.annuncio
+{
+    background-color:   #161E54;
+    min-height: 150px;
+    margin: 15px 5px 0 5px;
+    border-radius: 8px 8px 0 0;
 }
